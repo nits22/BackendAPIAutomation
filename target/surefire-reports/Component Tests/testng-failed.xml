@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Component Tests]" guice-stage="DEVELOPMENT" verbose="0">
+  <test parallel="classes" name="a-t1(failed)">
+    <groups>
+      <run>
+        <include name="unit"/>
+        <include name="unit"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="weatherTests.GetDetailsNew">
+        <methods>
+          <include name="getWeatherDetails4"/>
+          <include name="initalSetup"/>
+        </methods>
+      </class> <!-- weatherTests.GetDetailsNew -->
+    </classes>
+  </test> <!-- a-t1(failed) -->
+</suite> <!-- Failed suite [Component Tests] -->

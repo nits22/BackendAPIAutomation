@@ -1,0 +1,15 @@
+/Users/nitish/Desktop/MyProjects/src/main/java/utils/TestUtils.java
+/Users/nitish/Desktop/MyProjects/src/main/java/entity/HttpMethod.java
+/Users/nitish/Desktop/MyProjects/src/main/java/utils/JsonUtils.java
+/Users/nitish/Desktop/MyProjects/src/main/java/template/IServiceEndpoint.java
+/Users/nitish/Desktop/MyProjects/src/main/java/restUtils/RequestHandler.java
+/Users/nitish/Desktop/MyProjects/src/main/java/endpoints/WeatherRequestBody.java
+/Users/nitish/Desktop/MyProjects/src/main/java/clients/WeatherClient.java
+/Users/nitish/Desktop/MyProjects/src/main/java/entity/BaseResponse.java
+/Users/nitish/Desktop/MyProjects/src/main/java/restUtils/RequestProcessor.java
+/Users/nitish/Desktop/MyProjects/src/main/java/endpoints/WeatherResponse.java
+/Users/nitish/Desktop/MyProjects/src/main/java/entity/RequestBody.java
+/Users/nitish/Desktop/MyProjects/src/main/java/clientWrappers/WeatherClientWrapper.java
+/Users/nitish/Desktop/MyProjects/src/main/java/entity/AuthType.java
+/Users/nitish/Desktop/MyProjects/src/main/java/entity/Param.java
+/Users/nitish/Desktop/MyProjects/src/main/java/endpoints/WeatherEndpoint.java

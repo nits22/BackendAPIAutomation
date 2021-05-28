@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Component Tests" verbose="2" annotations="JDK">
+    <test name="a-t1" preserve-order="true" parallel="classes" thread-count="3">
+        <groups>
+            <run>
+                <include name="unit" />
+            </run>
+        </groups>
+        <classes>
+            <class name="weatherTests.GetWeatherDetails"/>
+            <class name="weatherTests.GetDetailsNew"/>
+        </classes>
+
+    </test>
+</suite>

@@ -1,0 +1,17 @@
+clients/WeatherClient.class
+entity/BaseResponse.class
+restUtils/RequestProcessor.class
+clientWrappers/WeatherClientWrapper.class
+endpoints/WeatherRequestBody.class
+endpoints/WeatherResponse.class
+entity/AuthType.class
+restUtils/RequestProcessor$1.class
+endpoints/WeatherEndpoint.class
+entity/RequestBody.class
+restUtils/RequestHandler.class
+entity/HttpMethod.class
+utils/TestUtils.class
+template/IServiceEndpoint.class
+utils/JsonUtils.class
+restUtils/RequestHandler$1.class
+entity/Param.class
