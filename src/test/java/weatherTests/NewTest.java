@@ -7,6 +7,7 @@ import com.google.gson.reflect.TypeToken;
 import org.apache.poi.poifs.filesystem.Entry;
 
 import java.lang.reflect.Type;
+import java.util.Iterator;
 import java.util.Map;
 import java.util.Set;
 
@@ -58,6 +59,11 @@ public class NewTest {
         Map<String, Object> map1 = g.fromJson(json1, maxType);
         Map<String, Object> map2 = g.fromJson(json2, maxType);
         MapDifference<String, Object> difference = Maps.difference(map1, map2);
-        Set set = difference.entriesInCommon().entrySet();
+        Set set = difference.entriesDiffering().entrySet();
+        Iterator iterator = set.iterator();
+        while(iterator.hasNext()){
+            Map.Entry<String, Object> mentry = (Map.Entry) iterator.next();
+            System.out.println(mentry.getKey() + " : " + mentry.getValue());
+        }
     }
 }

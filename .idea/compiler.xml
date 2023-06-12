@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="MyProjects" />
         <module name="myproj" />
+        <module name="BackendAPIAutomation" />
       </profile>
     </annotationProcessing>
   </component>
